@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var person = new Object();
+		person.name = "黄晓明";
+		person.age = 18;
+		person.sex = "男";
+		person.addr = "地球村";
+		person.tel = 11012010086;
+		person.show=function(){
+			alert(name+age+sex+addr+tel);
+		}
+	    for(var x in person){
+	    	console.log(x + "=" + person[x]);
+	    }
+	</script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			function min(){
+				var min = arguments[0];
+				for (var i = 0;i < arguments.length;i++) {
+					if(min>arguments[i]){
+						min=arguments[i];
+					}
+				}
+				alert(min);
+			}
+			min(20,34,-3,15,99,45,77);
+		</script>
+	</body>
+</html>

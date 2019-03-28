@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var s = prompt("请输入一个五位数字");
+		var b = parseInt(s/10000);
+		var a = parseInt(s/1000%10);
+		var c = parseInt(s/100%10);
+		var d = parseInt(s/10%10);
+		var e = parseInt(s%10);
+		alert(b==e&&a==d?"是回文数":"不是回文数");
+	</script>
+</html>

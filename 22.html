@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button id="anniu" onclick="open2()">查看浏览器信息</button>
+	</body>
+	<script>
+		setTimeout(function open2(){
+			yemian=window.open("navigator.html","new","height=450,width=450")
+			
+		},3000);
+		setTimeout(function open2(){
+			if(yemian&&!yemian.closed){
+			     yemian.close();
+			  location.href = 'navigator.html';
+			}
+		},8000)
+	</script>
+</html>

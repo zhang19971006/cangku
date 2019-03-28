@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+			for (var i=0;i<=6;i++) {
+				//打印左边标号为1的空白部分
+				for(var j=6;j>i;j--){
+					document.write("&nbsp;&nbsp;"+"&nbsp;");
+				}
+				//打印中间编号为2的数字部分
+				for(var k=0;k<=i;k++){
+					document.write(k+"&nbsp;");
+				}
+				//打印右边编号为3的数字部分
+				for(var m=i-1;m>=0;m--){
+					document.write(m+"&nbsp;");
+				}
+				document.write("<br />");
+				
+				
+			}
+			for (var i=0;i<=6;i++) {
+				for (var j=6;j>i;j--) {
+					document.write("&nbsp;&nbsp;"+"&nbsp;");
+				}
+				for(var k=0;k<=i;k++){
+					document.write(k+"&nbsp;");
+				}
+				for(var m=i-1;m>=0;m--){
+					document.write(m+"&nbsp");
+				}
+				document.write("<br />");
+			}
+		</script>
+</html>

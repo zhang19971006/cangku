@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var a = prompt("请输入购买JavaScript书的数量");
+		var b = prompt("请输入购买钢笔的数量");
+		var c = prompt("请输入购买眼睛的数量");
+		var d = prompt("请输入购买牛奶的数量");
+		var js = 59;
+		var gb = 30;
+		var yj = 199;
+		var nn = 68;
+		if(a==1){
+			js = js * 0.9 * a
+		}else if(a==2){
+			js = js * 0.8 * a
+		}else if(a==3) {
+			js = js * 0.7 * a
+		}else if(a>=4){
+			js = js * 0.6 * a
+		}
+		
+		if(b==1){
+			gb = gb * 0.9 * b
+		}else if(b==2){
+			gb = gb * 0.8 * b
+		}else if(b==3) {
+			gb = gb * 0.7 * b
+		}else if(b>=4){
+			gb = gb * 0.6 * b
+		}
+		if(c==1){
+			yj = yj * 0.9 * c
+		}else if(c==2){
+			yj = yj * 0.8 * c
+		}else if(c==3) {
+			yj = yj * 0.7 * c
+		}else if(c>=4){
+			yj = yj * 0.6 * c
+		}
+		if(d==1){
+			nn = nn * 0.9 * d
+		}else if(d==2){
+			nn = nn * 0.8 * d
+		}else if(d==3) {
+			nn = nn * 0.7 * d
+		}else if(d>=4){
+			nn = nn * 0.6 * d
+		}
+		alert("总价是："+(js+gb+yj+nn));
+		</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		function person(name,age){
+			this.name = name;
+			this.age = age;
+		}
+		var zhangsan =new person('张三',30);
+		person.prototype.show = function(){
+			console.log(zhangsan.name+zhangsan.age);
+		}	
+		zhangsan.show();
+		var zhangsan1 = new person('张三',20);
+		person.prototype.show = function(){
+			console.log("姓名"+zhangsan1.name+"年龄"+zhangsan1.age)
+		} 
+		var zhangsan1 = new person()
+		String str="1234567893";
+　　System.out.println(str.indexOf("3"));
+　　System.out.println(str.lastIndexOf("3"));
+	</script>
+</html>
